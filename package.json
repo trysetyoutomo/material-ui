@@ -1,0 +1,38 @@
+{
+  "name": "materialize-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trysetyoutomo/materialize-ui.git"
+  },
+  "author": "trysetyoutomo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trysetyoutomo/materialize-ui/issues"
+  },
+  "homepage": "https://github.com/trysetyoutomo/materialize-ui#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.12",
+    "@babel/preset-env": "^7.17.12",
+    "autoprefixer": "^10.4.7",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "extract-loader": "^5.1.0",
+    "file-loader": "^6.2.0",
+    "postcss-loader": "^6.2.1",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  },
+  "dependencies": {
+    "@material/button": "^14.0.0"
+  }
+}
